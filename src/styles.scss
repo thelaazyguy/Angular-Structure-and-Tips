@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+// utils
+@import './assets/scss/utils/variables',
+'./assets/scss/utils/placeholders',
+'./assets/scss/utils/mixins',
+'./assets/scss/utils/functions',
+'./assets/scss/utils/helpers';
+
+
+// base
+@import './assets/scss/base/reset',
+'./assets/scss/base/typography';
+
+
+// components
+@import './assets/scss/components/table',
+'./assets/scss/components/pagination';

@@ -1,0 +1,4 @@
+html {
+  @extend %primary-font;
+  font-size: 62.5%; // 62.5% = 10px; Use rem units based on this value.
+}
